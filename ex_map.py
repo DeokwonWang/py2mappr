@@ -1,9 +1,11 @@
 from src.map_utils import create_map, create_snapshot
 
+project_path = "projects/public/sample/"
+
 # configure the files and folders
-nodesFile = "data_in/datapoints.csv"
-linksFile = "data_in/edges.csv"
-nodeAttrsFile = "data_in/datapoint_attrs.csv"
+nodesFile = project_path + "data_in/datapoints.csv"
+linksFile = project_path + "data_in/edges.csv"
+nodeAttrsFile = project_path + "data_in/datapoint_attrs.csv"
 outFolder = "data_out"
 
 # configure the mapping for the reqd parameters
